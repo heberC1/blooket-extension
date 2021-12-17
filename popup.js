@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function () {
         let box = document.getElementById('boxInput');
         let amount = document.getElementById('boxAmountInput');
         let sucess = true;
-        if (!["aquatic", "bot", "space", "breakfast", "medieval", "wonderland"].includes(box.value.toLowerCase().replace(/Box/g, '').replace(/ /g, ''))) {
+        if (!["aquatic", "bot", "space", "breakfast", "medieval", "wonderland", "Blizzard", "Spooky"].includes(box.value.toLowerCase().replace(/Box/g, '').replace(/ /g, ''))) {
             box.value = "";
             box.placeholder = "Invalid box! (e.g. 'Space')";
             setTimeout(() => {
